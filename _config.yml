@@ -1,0 +1,47 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions:     [strikethrough,smart,with_toc_data]
+highlighter:      pygments
+
+# Permalinks
+permalink:        /posts/:title/
+
+# User Configuration
+title:            Franklin Geo Francis
+tagline:          
+description:      
+url:              http://franklingeofrancis.github.io
+baseurl:          '/'
+paginate:         3
+excerpt_separator: '<br>'
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
+# Author Info
+author:
+  name:           Franklin Geo Francis
+  url:            franklingeofrancis.github.io
+
+# Social Integration
+social:
+  twitter:        geo_franklin
+  disqus:         franklingeofrancis
+  addthis_pubid:  ra-553bd25f09e9f58c
+
+# Google Analytics Configuration
+# Proxy response must be in JSON and should have the fields - ga:pagePath, ga:pageview
+google_analytics:
+  tracking_id:      UA-62276928-1
+  super_proxy_url:  
+
+# Github
+github:
+  repo:           https://github.com/franklingeofrancis/franklingeofrancis.github.io
+  feedback:       https://github.com/franklingeofrancis/feedback/issues/new
+
+# Version Info
+version:          0.0.5
